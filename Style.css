@@ -67,7 +67,14 @@ a{
     justify-content: center;
     margin-top: 5px;
 }
-
+/* Footer*/
+.Pied{
+    display: flex;
+    justify-content: center;
+}
+.LogoGitLink{
+    padding: 0px 10px 0px 0px;
+}
 
 
 
