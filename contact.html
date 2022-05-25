@@ -30,11 +30,19 @@
                 </div>
             </nav>
         </header>
-
-
-
-
-
+        <div class="Formulaire">  <!--Formulaire-->
+            <form method="post" action="Traitement.php"> <!--Lien page PHP-->
+              <p>
+                <label>Votre Nom :</label> <input type="text" name="Nom" class="CaseFormulaire" placeholder="Ex : Dupont" size="30" maxlength="20" required><br>                   
+                <label>Votre Prénom :</label> <input type="text" name="Prenom" class="CaseFormulaire" placeholder="Ex : Pierre" size="30" maxlength="20" required><br>                    
+                <labe>Votre Email :</labe> <input type="email" name="Email" class="CaseFormulaire" placeholder="Ex : prenom.nom@gmail.com" size="30" maxlength="40" required><br>
+                <label>Votre téléphone :</label> <input type="tel" name="Téléphone" class="CaseFormulaire" placeholder="Ex : 0601010101" size="30" maxlength="10" required><br>           
+                <label for="ameliorer">Texte :</label><br>
+                <textarea name="ameliorer" class="ameliorer" rows="15" maxlength="250" cols="50" placeholder="Ex : 250 Caractères Max"></textarea>
+                <input type="submit" value="Envoyer" class="BoutonEnvoyer">
+              </p>
+            </form>
+        </div>
 
 
 

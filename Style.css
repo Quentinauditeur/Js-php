@@ -15,7 +15,7 @@ a{
 }
 
 
-
+/* Menu*/
 .navbar{
     min-height: 70px;
     display: flex;
@@ -38,9 +38,7 @@ a{
 .nav-link:hover{
     color: blue;
 }
-
-
-
+/* Bouton hamburger*/
 .hamburger{
     display: none;
     cursor: pointer;
@@ -54,6 +52,24 @@ a{
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
+/* Formulaire*/
+.Formulaire{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+}
+.CaseFormulaire{
+    display: flex;
+    justify-content: center;
+}
+.BoutonEnvoyer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+
 
 @media(max-width:768px){
     .hamburger{
@@ -85,5 +101,11 @@ a{
     }
     .nav-menu.active{
         left: 0;
+    }
+}
+@media only screen and (max-width: 480px){
+    .Formulaire{
+        width: 100%;
+        padding: auto;
     }
 }
