@@ -13,8 +13,6 @@ a{
     color: white;
     text-decoration: none;
 }
-
-
 /* Menu*/
 .navbar{
     min-height: 70px;
@@ -52,6 +50,23 @@ a{
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
+/* Accueil*/
+.Accueil{
+    background-image: url("Fondacceuil.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 0px 0px 10px 0px;
+    display: table;
+}
+.ContentAccueil{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.BoutonAccueil{
+    margin: 10px 0px 0px 0px;
+}
 /* Formulaire*/
 .Formulaire{
     display: flex;
@@ -67,6 +82,13 @@ a{
     justify-content: center;
     margin-top: 5px;
 }
+/* Merci Formulaire*/
+.MERCI{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px 5px 0px;
+    font-size: 1rem;
+}
 /* Footer*/
 .Pied{
     display: flex;
@@ -75,7 +97,12 @@ a{
 .LogoGitLink{
     padding: 0px 10px 0px 0px;
 }
-
+/* CV*/
+.CV{
+    width: 100%;
+    height: 600px;
+    margin: 0px 0px 10px 0px;
+}
 
 
 @media(max-width:768px){
@@ -112,6 +139,10 @@ a{
 }
 @media only screen and (max-width: 480px){
     .Formulaire{
+        width: 100%;
+        padding: auto;
+    }
+    .MERCI{
         width: 100%;
         padding: auto;
     }
